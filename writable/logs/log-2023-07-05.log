@@ -1,0 +1,17 @@
+CRITICAL - 2023-07-05 06:42:55 --> Call to undefined method CodeIgniter\Router\RouteCollection::getPost()
+in APPPATH\Config\Routes.php on line 33.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-05 06:44:40 --> CodeIgniter\Router\RouteCollection::match(): Argument #2 ($from) must be of type string, array given, called in C:\xampp\htdocs\webpro\app\Config\Routes.php on line 33
+in SYSTEMPATH\Router\RouteCollection.php on line 895.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], [...], '/submit', 'FormController::submit')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\webpro\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')

@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+   
+  }
+tbody {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.biodata {
+    margin-top: 30px;
+}
+.beranda{
+    text-align: center;
+}
+
+/* Styles for handphone */
+@media (max-width: 767px) {
+    /* Contoh pengaturan ukuran font */
+    body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    opacity: 0.9;
+    }
+    .kartu {
+        width: auto;
+        margin: center;
+        margin-top: 0px;
+        box-shadow: 0 0.25rem 0.75rem rgba(128,128,128,.05);
+    transition: all .3s;
+      } 
+      .foto {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border-radius: 50% / 30% 50%;
+    }
+  
+    /* Contoh pengaturan lebar dan padding */
+    .container {
+        width: 100%;
+        padding: 10px;
+      }
+  
+    /* Contoh pengaturan layout kolom tunggal */
+    .column {
+      width: 100%;
+    }
+  }
+/* Styles for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Contoh pengaturan ukuran font */
+    body {
+      font-size: 16px;
+      
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    opacity: 0.9;
+    }
+    .kartu {
+        width: auto;
+        margin: center;
+        margin-top: 0px;
+        box-shadow: 0 0.25rem 0.75rem rgba(128,128,128,.05);
+        transition: all .3s;
+      } 
+      .foto {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border-radius: 50% / 30% 50%;
+    
+      } 
+    /* Contoh pengaturan lebar dan padding */
+    .container {
+        width: 200%;
+        padding: 10px;
+      }
+  
+    /* Contoh pengaturan layout dua kolom */
+    .column {
+      width: 50%;
+    }
+  }
+/* Styles for desktop */
+@media (min-width: 1024px) {
+    /* Contoh pengaturan ukuran font */
+    body {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      opacity: 0.9;
+    }
+    .kartu {
+        width: auto;
+        margin: center;
+        margin-top: 0px;
+        box-shadow: 0 0.25rem 0.75rem rgba(128,128,128,.05);
+    transition: all .3s;
+      } 
+      .foto {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border-radius: 50% / 30% 50%;
+    }
+    /* Contoh pengaturan lebar dan padding */
+    .container {
+        width: 200%;
+        padding: 10px;
+      }
+  
+    /* Contoh pengaturan layout tiga kolom */
+    .column {
+      width: 33.33%;
+    }
+  }
+
+  
+      

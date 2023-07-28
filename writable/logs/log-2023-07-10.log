@@ -1,0 +1,91 @@
+CRITICAL - 2023-07-10 08:01:29 --> Invalid file: "helloworld/Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('helloworld/Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('helloworld/Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('helloworld/Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:43 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:51 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:52 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:52 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:52 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:01:53 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layout', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:06:54 --> Invalid file: "32602100089_wahyu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('32602100089_wahyu.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('32602100089_wahyu', [], true)
+ 3 APPPATH\Controllers\HelloWorld.php(9): view('32602100089_wahyu')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')
+CRITICAL - 2023-07-10 08:18:35 --> Invalid file: "Layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('helloworld', [], true)
+ 4 APPPATH\Controllers\HelloWorld.php(9): view('helloworld')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HelloWorld->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloWorld))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webpro\\public\\index.php')

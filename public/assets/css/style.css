@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;    
+  }
+  body{
+    background-image: url("aset/alan-walker-2019-zx-1280x800.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
+     backdrop-filter: blur(50px);
+  }
+   .navbar{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .navbar, .banner{
+    padding: 40px 70px;
+    background-color: gray;
+    text-align: center;
+    opacity: 0.7;
+   }
+
+   .navbar-icon{
+    flex-grow: 1;
+   }
+   
+   .navbar-page{
+    list-style: none;
+    flex-grow: 2;
+    
+    
+   }
+
+   .navbar-sosmed{
+    flex-grow: 1;
+    text-align: right;
+    letter-spacing: 3px;
+   }
+
+   .navbar li, 
+   .navbar-sosmed li{
+    display: inline;
+   }
+
+   .navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .navbar li a{
+    margin: 0px 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+   
+   }
+
+   .fa-brands{
+    margin-right: 5px;
+    
+   }
+
+   .banner{
+    line-height: 350%;
+    background-image: url("/assets/PP34.jpg");
+    width: 100%;
+   }
+
+
+   .about{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+   }
+
+.name{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.description{
+    font-size: 27px;
+    margin-top: 1%;
+    text-align: center;
+    
+}
+
+.fa-solid fa-user li, i{
+    border-radius: 100%;
+    flex-grow: inherit;
+        }
+   
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+  
